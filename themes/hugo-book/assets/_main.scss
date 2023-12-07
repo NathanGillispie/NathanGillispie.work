@@ -178,7 +178,7 @@ body[dir="rtl"] .book-menu {
 }
 
 .book-header {
-  display: none;
+  display: block;
   margin-bottom: $padding-16;
 
   label {
@@ -186,6 +186,7 @@ body[dir="rtl"] .book-menu {
   }
 
   img.book-icon {
+    display: none;
     height: 1.5em;
     width: 1.5em;
   }
@@ -312,6 +313,12 @@ body[dir="rtl"] .book-menu {
 
   .book-header {
     display: block;
+
+    img.book-icon {
+      display: block;
+      height: 1.5em;
+      width: 1.5em;
+    }
   }
 
   #menu-control:focus ~ main label[for="menu-control"] {

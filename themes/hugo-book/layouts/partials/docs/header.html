@@ -1,9 +1,9 @@
-<div class="flex align-center justify-between">
+<div class="flex align-center justify-between-v2">
   <label for="menu-control">
     <img src="{{ "svg/menu.svg" | relURL }}" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>{{ partial "docs/title" . }}</strong>
+  <strong class="header-v2">{{ partial "docs/title" . }}</strong>
 
   <label for="toc-control">
     {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}

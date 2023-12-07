@@ -3,6 +3,7 @@ bookCollapseSection: false
 weight: 20
 title: Repos
 BookToc: false
+BookRepo: 'https://github.com/NathanGillispie/NathanGillispie.work'
 ---
 
 {{< button href="https://github.com/nathangillispie" >}}My GitHub{{< /button >}}

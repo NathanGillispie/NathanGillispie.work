@@ -30,6 +30,16 @@
   justify-content: space-between;
 }
 
+.justify-between-v2 {
+justify-content: left;
+}
+
+@media screen and (max-width: $mobile-breakpoint){
+  .justify-between-v2 {
+    justify-content: space-between;
+  }
+}
+
 .align-center {
   align-items: center;
 }

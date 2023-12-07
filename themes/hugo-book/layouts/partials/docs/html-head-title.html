@@ -1,1 +1,1 @@
-{{ partial "docs/title" . }} | {{ .Site.Title -}}
+{{ partial "docs/title" . }}{{ if isset .Params "nopipe" }}{{else}} |{{end}} {{ .Site.Title -}}

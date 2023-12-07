@@ -12,3 +12,16 @@
   padding-left: 22px ;
   text-indent: -22px ;
 }
+
+.header-v2 {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .header-v2 {
+    font-size: $font-size-16;
+    font-weight: bolder;
+  }
+}

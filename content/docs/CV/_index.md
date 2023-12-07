@@ -11,8 +11,6 @@ Last edited: December 2, 2023
 
 {{< button href="CV.pdf" >}}Download PDF (200KB){{< /button >}}
 
-# Curriculum Vitae
-
 E-Mail: [nathaniel.gillispie972@topper.wku.edu](mailto:"nathaniel.gillispie972@topper.wku.edu")
 
 
