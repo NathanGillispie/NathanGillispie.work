@@ -6,7 +6,7 @@ BookToc: false
 ---
 
 ```
-Last edited: December 2, 2023
+Last edited: May 29, 2024
 ```
 
 {{< button href="CV.pdf" >}}Download PDF (200KB){{< /button >}}

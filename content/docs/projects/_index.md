@@ -5,7 +5,7 @@ title: Projects
 BookRepo: 'https://github.com/NathanGillispie/NathanGillispie.work'
 ---
 
-The following is a taste of some of my interests inside and outside school.
+Aside from my research, the following is a taste of some of my interests inside and outside school.
 
 ## Effective Reproduction Value (R<sub>t</sub>) of COVID-19 in the WKU Community
 

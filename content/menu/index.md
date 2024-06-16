@@ -7,4 +7,4 @@ headless: true
 - [Repository]({{< relref "/docs/repository" >}})
 - [Photography]({{< relref "/docs/photography" >}})
 - [Curriculum Vitae]({{< relref "/docs/CV" >}})
-- [Reserach Updates]({{< relref "/docs/posts" >}})
+- [Updates]({{< relref "/docs/posts" >}})
