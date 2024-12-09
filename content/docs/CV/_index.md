@@ -13,8 +13,6 @@ Last edited: May 29, 2024
 
 E-Mail: [nwgllspe@memphis.edu](mailto:"nwgllspe@memphis.edu")
 
-
-
 ## Education
 
 ### University of Memphis --- _Fall 2024 to Spring 2029 (expected)_

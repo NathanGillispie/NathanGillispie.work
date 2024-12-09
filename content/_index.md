@@ -6,7 +6,7 @@ BookToc: false
 ---
 
 <svg fill=var(--body-font-color) x="0px" y="0px"
-	 width="100%" viewBox="0 0 704 1024" enable-background="new 0 0 704 1024" xml:space="preserve">
+	viewBox="0 0 704 850" >
 <path opacity="1.000000" stroke="none" 
 	d="
 M143.468658,1025.000000 

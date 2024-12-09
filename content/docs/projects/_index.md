@@ -2,7 +2,6 @@
 bookCollapseSection: false
 weight: 20
 title: Projects
-BookRepo: 'https://github.com/NathanGillispie/NathanGillispie.work'
 ---
 
 Aside from my research, the following is a taste of some of my interests inside and outside school.

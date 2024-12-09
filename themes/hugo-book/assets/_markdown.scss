@@ -17,7 +17,7 @@
   h6 {
     font-weight: normal;
     line-height: 1;
-    margin-top: 1.5em;
+    margin-top: 1.5rem;
     margin-bottom: $padding-16;
 
     a.anchor {
@@ -41,6 +41,9 @@
 
   h5 {
     font-size: 0.875em;
+    font-weight:lighter;
+    font-style:oblique;
+    margin-block:0rem;
   }
 
   h6 {
@@ -90,6 +93,7 @@
 
   p {
     word-wrap:break-word;
+    text-align:justify;
   }
 
   blockquote {
@@ -180,6 +184,7 @@
 
   figure {
     margin: $padding-16 0;
+    text-align: center;
     figcaption p {
       margin-top: 0;
     }

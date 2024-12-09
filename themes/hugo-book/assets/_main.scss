@@ -122,7 +122,8 @@ ul.pagination {
   }
 
   a.active {
-    color: var(--color-link);
+    //color: var(--color-link);
+    text-decoration: underline;
   }
 
   input.toggle + label + ul {
@@ -174,7 +175,12 @@ body[dir="rtl"] .book-menu {
 }
 
 .book-post {
-  margin-bottom: $padding-16 * 3;
+  margin-block: $padding-16 * 3;
+  .link,
+  .link:visited {
+    color:var(--body-font-color);
+    text-decoration: underline;
+  }
 }
 
 .book-header {
@@ -235,9 +241,10 @@ body[dir="rtl"] .book-menu {
 
 .book-toc {
   flex: 0 0 $toc-width;
-  font-size: $font-size-12;
+  font-size: $font-size-14;
 
   .book-toc-content {
+    color:var(--body-font-color);
     width: $toc-width;
     padding: $padding-16;
 
@@ -332,7 +339,7 @@ body[dir="rtl"] .book-menu {
 
     .book-menu .book-menu-content {
       transform: translateX($menu-width);
-      box-shadow: 0 0 $padding-8 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 $padding-16 rgba(0, 0, 0, 0.3);
     }
 
     .book-page {

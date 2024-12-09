@@ -5,7 +5,7 @@ languageCode = 'en-us'
 title = 'Nathan Gillispie'
 theme = 'hugo-book'
 
-enableGitInfo = true
+enableGitInfo = false
 
 [markup]
 [markup.goldmark.renderer]
@@ -14,15 +14,25 @@ enableGitInfo = true
 [markup.tableOfContents]
   startLevel = 1
 
+[outputs]
+  home = ['html']
+  section = ['html', 'rss']
+  term = ['html']
+
+[services]
+  [services.rss]
+    limit = 20
+
+copyright = '© 2023 ABC Widgets, Inc.'
+
 # (Optional) Theme is intended for documentation use, therefore it doesn't render taxonomy.
 # You can remove related files with config below
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
 [params]
-  BookRepo = 'https://github.com/NathanGillispie/NathanGillispie.work'
-  BookCommitPath = 'commit'
+  #BookRepo = 'https://github.com/NathanGillispie/NathanGillispie.work'
+  #BookCommitPath = 'commit'
 
-  
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme = 'auto'
@@ -47,3 +57,6 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   BookComments = false
 
   BookDateFormat = "02 Jan 2006"
+  [params.author]
+    email = 'feed@nathangillispie.work'
+    name = 'Nathan G'
