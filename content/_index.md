@@ -4,9 +4,9 @@ nopipe: true
 type: menu
 BookToc: false
 ---
-
+<div class="center">
 <svg fill=var(--body-font-color) x="0px" y="0px"
-	viewBox="0 0 704 850" >
+	viewBox="0 0 704 1024" style="height:100vh;overflow">
 <path opacity="1.000000" stroke="none" 
 	d="
 M143.468658,1025.000000 
@@ -518,4 +518,4 @@ M360.005188,410.473907
 	C356.514099,409.525299 358.170837,409.095398 360.005188,410.473907 
 z"/>
 </svg>
-
+</div>
