@@ -1,4 +1,4 @@
-googleAnalytics = "G-FBHSKM2KST"
+# googleAnalytics = "G-FBHSKM2KST"
 
 baseURL = 'https://nathangillispie.work/'
 languageCode = 'en-us'
@@ -7,14 +7,21 @@ title = 'Nathan Gillispie'
 enableGitInfo = false
 
 [markup]
-[markup.goldmark.renderer]
-  unsafe = true
+  [markup.goldmark]
+	[markup.goldmark.renderer]
+	  unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
 [markup.tableOfContents]
   startLevel = 1
 
 [outputs]
-  home = ['html']
+  home = ['html', 'rss']
   section = ['html', 'rss']
   term = ['html']
 
@@ -22,7 +29,7 @@ enableGitInfo = false
   [services.rss]
     limit = 20
 
-copyright = '© 2023 ABC Widgets, Inc.'
+copyright = '© 2025 Nathan Gillispie'
 
 # (Optional) Theme is intended for documentation use, therefore it doesn't render taxonomy.
 # You can remove related files with config below
@@ -32,9 +39,9 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   # (Optional, default light) Sets color theme: light, dark or auto.
   BookTheme = 'auto'
 
-
   # (Optional, default true) Start and end levels can be controlled with markup.tableOfContents setting.
   BookToC = false
+  math = false
 
   # (Optional, default true) Enables comments template on pages
   # By default partials/docs/comments.html includes Disqus template

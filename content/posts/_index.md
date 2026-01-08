@@ -3,6 +3,6 @@ menu:
   after:
     name: writings
 weight: 5
-title: "Updates"
+title: "Blog"
 BookToc: false
 ---

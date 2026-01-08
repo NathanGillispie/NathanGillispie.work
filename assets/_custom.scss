@@ -23,9 +23,14 @@
   .header-v2 {
     font-size: $font-size-16 * 1.1;
     font-weight: lighter;
+    margin: auto 10px;
   }
 
   .markdown {
     width:100%;
   }
+}
+
+.katex {
+  font-size: 1.1em !important;
 }

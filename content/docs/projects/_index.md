@@ -27,10 +27,12 @@ Everyone has the right to freely accessible scientific knowledge, especially reg
 
 Made a few updates to FastGAN-pytorch to make [NathanGAN](https://github.com/NathanGillispie/FastGAN-pytorch). Results are eerie. I ended up using the model trained on the FFHQ dataset for a video. 
 
-![GAN1](/GAN1.webp)
-![GAN2](/GAN2.webp)
-![GAN3](/GAN3.webp)
-![GAN4](/GAN4.webp)
+<div style="display: grid; grid-template-columns: auto auto;">
+<img src="/GAN1.webp" alt="GAN1">
+<img src="/GAN2.webp" alt="GAN2">
+<img src="/GAN3.webp" alt="GAN3">
+<img src="/GAN4.webp" alt="GAN4">
+</div>
 
 ## VSTs
 
