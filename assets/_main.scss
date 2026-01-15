@@ -338,6 +338,6 @@ body[dir="rtl"] .book-menu {
   .book-page,
   .book-menu .book-menu-content,
   .book-toc .book-toc-content {
-    padding: $padding-16 * 2 $padding-16;
+    padding: $padding-16 * 2 $padding-4 * 3;
   }
 }
